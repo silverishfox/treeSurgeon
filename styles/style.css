@@ -1,0 +1,102 @@
+body,header,nav,h1,h3,a,ul,li,footer,main,div{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: darkgreen;
+  background-image:url("../images/tree_body_bg.png");
+}
+#container{
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
+  background-color: darkgreen;
+  background-image:url("../images/tree_container_bg.png");
+}
+header{
+  padding: 60px 0 60px 0;
+  background-color: darkgreen;
+  text-align: center;
+  font-size: 3em;
+  font-family: arial;
+  background-color: darkgreen;
+  background-image:url("../images/tree_header_bg.png");
+  color:rgb(135, 87, 54);
+}
+nav{
+  z-index: 100;
+  position: sticky;
+  top: 0;
+}
+nav ul li{
+  background-color: green;
+  text-align: center;
+  float: left;
+  list-style-type: none;
+  width: 25%;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid rgb(135, 87, 54);
+}
+nav ul li a{
+  color:rgb(232, 149, 92);
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bolder;
+  font-family:arial;
+}
+nav ul li:first-child{
+  border-radius: 0 0 0 30px;
+}
+nav ul li:last-child{
+  border-radius: 0 0 30px 0;
+}
+nav ul li:hover{
+  background-image:url("../images/tree_header_bg.png");
+}
+main{
+  width: 90%;
+  margin: 0 auto;
+  clear: left;
+  overflow: auto;
+  background-color: darkgreen;
+  background-image:url("../images/tree_container_bg.png");
+}
+#img_1{
+    opacity: .8;
+    text-align: center;
+    border-radius:50%;
+    overflow:hidden;
+}
+p{
+  padding: 15px;
+  text-align: justify;
+}
+p::first-letter{
+  font-size: 2em;
+}
+p img{
+  float: left;
+  width: 65%;
+}
+.three_columns{
+  float: left;
+  width: 30%;
+  background-color: darkgreen;
+}
+#column_1{
+  margin-left: 5%;
+  background-image:url("../images/tree_div1_bg.png");
+}
+#column_2{
+  background-image:url("../images/tree_div2_bg.png");
+}
+#column_3{
+  background-image:url("../images/tree_div3_bg.png");
+}
+footer{
+  text-align: center;
+  clear: left;
+  background-image:url("../images/tree_header_bg.png");
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
