@@ -88,6 +88,7 @@ p img{
   float: left;
   width: 30%;
   background-color: darkgreen;
+  filter: drop-shadow(0px 5px 4px  darkgreen);
 }
 #column_1{
   margin-left: 5%;
@@ -100,6 +101,7 @@ p img{
   background-image:url("../images/tree_div3_bg.png");
 }
 footer{
+  color:rgb(90, 87, 54);
   text-align: center;
   clear: left;
   background-image:url("../images/tree_header_bg.png");
