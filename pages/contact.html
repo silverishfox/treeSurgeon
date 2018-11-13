@@ -3,7 +3,7 @@
   <head>
     <link href="../styles/style.css" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Liquid Float</title>
+    <title>Tree-inator</title>
   </head>
   <body>
     <div id="container">
@@ -19,36 +19,30 @@
         </ul>
       </nav>
       <main>
-        <form action="#" method="get" id="contactForm">
+        <form action="../php/sendmail.php" method="post" id="contactForm">
           <fieldset>
             <legend>Contact</legend>
             <table>
               <tr>
-                <td><label for="fname">First Name :</label></td>
-                <td class="formInputs"><input type="text" name="fname" id="fname"></td>
+                <td><label for="uName">Username :</label></td>
+                <td class="formInputs"><input type="text" name="uName" id="uName"></td>
               </tr>
               <tr>
                 <td><label for="email">E-mail :</label></td>
                 <td class="formInputs"><input type="email" name="email" id="email"></td>
               </tr>
               <tr>
-                <td style="vertical-align:top;"><label for="comments">Comments :</label></td>
-                <td class="formInputs"><textarea name="comments" cols="50" rows="10" id="comments">
-                </textarea></td>
+                <td style="vertical-align:top;"><label for="comment">Comments :</label></td>
+                <td class="formInputs"><textarea name="comment" cols="50" rows="10" id="comment"></textarea></td>
               </tr>
               <tr>
                 <td><input type="reset" class="formButton"></td>
-                <td><input type="submit" class="formButton"></td>
+                <td><input type="submit" class="formButton" value="Submit Form"></td>
               </tr>
           </table>
         </fieldset>
-        </form>
-
-
-
-
-
-      </main>
+      </form><!--Close Form-->
+    </main>
       <footer>
         <h3>&copy;The Tree-inator 2018</h3>
       </footer>
