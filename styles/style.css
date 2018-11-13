@@ -41,6 +41,7 @@ nav ul li{
   border-top: 1px solid rgb(135, 87, 54);
 }
 nav ul li a{
+  display: block;
   color:rgb(232, 149, 92);
   text-decoration: none;
   font-size: 2em;
@@ -122,22 +123,25 @@ legend{
   filter: drop-shadow(0px 5px 2px  darkgreen);
 }
 #contactForm{
-  color: white;
+  color: #E4FFAF;
   margin-bottom: 5em;
 }
 #contactForm td {
-  font-size: 1.2em;
+  font-size: 1.6em;
   filter: drop-shadow(0px 1px 1px  darkgreen);
 }
 .formInputs{
   filter: drop-shadow(0px 4px 1px  darkgreen);
+}
+.formInputs input,textarea {
+  font-size: 1.2em;
 }
 #contactForm td input,textarea{
   border-radius: 5px;
 }
 .formButton{
   height:40px;
-  width: 80px;
+  width: 140px;
 }
 .formButton:hover{
   filter: drop-shadow(0px 2px 3px  darkgreen);
