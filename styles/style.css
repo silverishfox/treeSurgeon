@@ -113,3 +113,32 @@ footer{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+#contactForm fieldset{
+  background-image:url("../images/tree_div1_bg.png");
+}
+legend{
+  font-size: 2em;
+  font-family: arial;
+  filter: drop-shadow(0px 5px 2px  darkgreen);
+}
+#contactForm{
+  color: white;
+  margin-bottom: 5em;
+}
+#contactForm td {
+  font-size: 1.2em;
+  filter: drop-shadow(0px 1px 1px  darkgreen);
+}
+.formInputs{
+  filter: drop-shadow(0px 4px 1px  darkgreen);
+}
+#contactForm td input,textarea{
+  border-radius: 5px;
+}
+.formButton{
+  height:40px;
+  width: 80px;
+}
+.formButton:hover{
+  filter: drop-shadow(0px 2px 3px  darkgreen);
+}
