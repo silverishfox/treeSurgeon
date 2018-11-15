@@ -118,9 +118,12 @@ footer{
   background-image:url("../images/tree_div1_bg.png");
 }
 legend{
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: arial;
   filter: drop-shadow(0px 5px 2px  darkgreen);
+}
+.legend{
+font-size: 1em;
 }
 #contactForm{
   color: #E4FFAF;
@@ -129,6 +132,9 @@ legend{
 #contactForm td {
   font-size: 1.6em;
   filter: drop-shadow(0px 1px 1px  darkgreen);
+}
+#contactForm td,select {
+  font-size: 1.3em;
 }
 .formInputs{
   filter: drop-shadow(0px 4px 1px  darkgreen);
@@ -140,6 +146,7 @@ legend{
   border-radius: 5px;
 }
 .formButton{
+  margin-top: 10px;
   height:40px;
   width: 140px;
 }
